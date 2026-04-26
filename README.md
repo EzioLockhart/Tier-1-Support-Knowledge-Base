@@ -30,9 +30,10 @@ This knowledge base was built from scratch to simulate the internal documentatio
 - Maintain everything in a version-controlled environment (Git/GitHub)
 - Demonstrate technical writing ability for both technical and non-technical audiences
 
-**Current Status:** ✅ 8 categories created | 📝 Articles in progress
+**Current Status:** ✅ 8 categories created | ✅ 16 articles complete | ✅ All folder indexes created
 
 ---
+
 ## 📂 Repository Structure
 
 - **Networking/** — Wi-Fi, Ethernet, DNS, connectivity
@@ -48,17 +49,38 @@ This knowledge base was built from scratch to simulate the internal documentatio
 
 ## 📚 Categories & Articles
 
-| Category | Articles Planned | Status |
-|----------|:---------------:|:------:|
-| [Networking](./Networking/) | 2–3 | In Progress |
-| [Email](./Email/) | 2–3 | In Progress |
-| [Printers](./Printers/) | 2–3 | In Progress |
-| [Account & Access](./Account-Access/) | 2–3 | In Progress |
-| [Applications](./Applications/) | 2–3 | In Progress |
-| [Hardware](./Hardware/) | 2–3 | In Progress |
-| [VPN & Remote Access](./VPN-Remote-Access/) | 2–3 | In Progress |
-| [Operating System](./Operating-System/) | 2–3 | In Progress |
-| **Total Target** | **15+** | |
+| Category | Articles | Status |
+|----------|:--------:|:------:|
+| [Networking](./Networking/) | 2 | ✅ Complete |
+| [Email](./Email/) | 2 | ✅ Complete |
+| [Printers](./Printers/) | 2 | ✅ Complete |
+| [Account & Access](./Account-Access/) | 2 | ✅ Complete |
+| [Applications](./Applications/) | 2 | ✅ Complete |
+| [Hardware](./Hardware/) | 2 | ✅ Complete |
+| [VPN & Remote Access](./VPN-Remote-Access/) | 2 | ✅ Complete |
+| [Operating System](./Operating-System/) | 2 | ✅ Complete |
+| **Total** | **16** | ✅ |
+
+### Full Article List
+
+| # | Category | Article |
+|---|----------|---------|
+| 1 | Networking | [No Internet Access (Limited Connectivity)](./Networking/no-internet-access.md) |
+| 2 | Networking | [Wi-Fi Keeps Disconnecting](./Networking/wifi-keeps-disconnecting.md) |
+| 3 | Email | [Outlook Not Receiving New Emails](./Email/outlook-not-receiving-emails.md) |
+| 4 | Email | [Unable to Send Emails (Stuck in Outbox)](./Email/unable-to-send-emails.md) |
+| 5 | Printers | [Printer Shows as Offline](./Printers/printer-offline.md) |
+| 6 | Printers | [Print Jobs Stuck in Print Queue](./Printers/print-jobs-stuck.md) |
+| 7 | Account & Access | [Password Reset — Active Directory](./Account-Access/password-reset-ad.md) |
+| 8 | Account & Access | [Account Locked After Multiple Attempts](./Account-Access/account-locked-out.md) |
+| 9 | Applications | [Application Not Responding / Frozen](./Applications/app-not-responding.md) |
+| 10 | Applications | [Application Crashes on Launch](./Applications/app-crashes-on-launch.md) |
+| 11 | Hardware | [External Monitor Not Detected](./Hardware/external-monitor-not-detected.md) |
+| 12 | Hardware | [Computer Won't Power On](./Hardware/computer-wont-power-on.md) |
+| 13 | VPN & Remote Access | [VPN Connection Fails with Authentication Error](./VPN-Remote-Access/vpn-authentication-error.md) |
+| 14 | VPN & Remote Access | [VPN Connected but No Network Access](./VPN-Remote-Access/vpn-no-network-access.md) |
+| 15 | Operating System | [Windows Update Stuck or Fails to Install](./Operating-System/windows-update-stuck.md) |
+| 16 | Operating System | [Slow Boot Time and Performance](./Operating-System/slow-boot-performance.md) |
 
 ---
 
@@ -140,14 +162,14 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 
 ## 🗺️ Project Roadmap
 
-### Phase 1: Foundation — COMPLETE
+### Phase 1: Foundation — COMPLETE ✅
 - [x] Create repository and define folder structure
 - [x] Write comprehensive README.md
 - [x] Establish article format and documentation templates
 
-### Phase 2: Core Content — IN PROGRESS
-- [ ] Write 2+ troubleshooting articles per category (16+ total)
-- [ ] Create category index files (README.md) inside each folder
+### Phase 2: Core Content — COMPLETE ✅
+- [x] Write 2+ troubleshooting articles per category (16 total)
+- [x] Create category index files (README.md) inside each folder
 - [ ] Add screenshots to key troubleshooting steps
 - [ ] Include command reference cheat sheets where applicable
 
@@ -187,7 +209,7 @@ This knowledge base is **Project #5 of 7** in my Technical Support hands-on lear
 | 2 | Build Active Directory + User Management Lab | Planned |
 | 3 | Write PowerShell/Bash Troubleshooting Scripts | Planned |
 | 4 | Practice Remote Support (RDP & TeamViewer) | Planned |
-| **5** | **Build a Knowledge Base for Common Issues** | **In Progress** |
+| **5** | **Build a Knowledge Base for Common Issues** | **✅ Complete** |
 | 6 | Simulate Tier 1 Troubleshooting Scenarios | Planned |
 | 7 | Deploy Microsoft 365 Admin Trial Environment | Planned |
 
@@ -206,5 +228,5 @@ This project is shared as a portfolio piece and learning resource. Feel free to 
 
 ---
 
-*Last updated: April 26, 2026*
+*Last updated: April 27, 2026*
 *Built as part of a hands-on Technical Support portfolio — 7 projects, zero budget, real skills.*
