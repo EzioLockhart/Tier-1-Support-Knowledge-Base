@@ -33,49 +33,31 @@ This knowledge base was built from scratch to simulate the internal documentatio
 **Current Status:** ✅ 8 categories created | 📝 Articles in progress
 
 ---
-
 ## 📂 Repository Structure
 
-Tier-1-Support-Knowledge-Base/
-│
-├── README.md <- You are here
-│
-├── Networking/ <- Wi-Fi, Ethernet, DNS, connectivity
-│ └── README.md (index)
-│
-├── Email/ <- Outlook, Gmail, sync, send/receive
-│ └── README.md (index)
-│
-├── Printers/ <- Offline printers, queues, drivers
-│ └── README.md (index)
-│
-├── Account-Access/ <- Passwords, MFA, lockouts, permissions
-│ └── README.md (index)
-│
-├── Applications/ <- App crashes, freezes, installation
-│ └── README.md (index)
-│
-├── Hardware/ <- Monitors, peripherals, power, boot
-│ └── README.md (index)
-│
-├── VPN-Remote-Access/ <- VPN, RDP, remote desktop
-│ └── README.md (index)
-│
-└── Operating-System/ <- Windows updates, login, performance
-└── README.md (index)
+- **Networking/** — Wi-Fi, Ethernet, DNS, connectivity
+- **Email/** — Outlook, Gmail, sync, send/receive
+- **Printers/** — Offline printers, queues, drivers
+- **Account-Access/** — Passwords, MFA, lockouts, permissions
+- **Applications/** — App crashes, freezes, installation
+- **Hardware/** — Monitors, peripherals, power, boot
+- **VPN-Remote-Access/** — VPN, RDP, remote desktop
+- **Operating-System/** — Windows updates, login, performance
+
+---
 
 ## 📚 Categories & Articles
 
 | Category | Articles Planned | Status |
 |----------|:---------------:|:------:|
-| [Networking](./Networking/) | 2-3 | In Progress |
-| [Email](./Email/) | 2-3 | In Progress |
-| [Printers](./Printers/) | 2-3 | In Progress |
-| [Account & Access](./Account-Access/) | 2-3 | In Progress |
-| [Applications](./Applications/) | 2-3 | In Progress |
-| [Hardware](./Hardware/) | 2-3 | In Progress |
-| [VPN & Remote Access](./VPN-Remote-Access/) | 2-3 | In Progress |
-| [Operating System](./Operating-System/) | 2-3 | In Progress |
+| [Networking](./Networking/) | 2–3 | In Progress |
+| [Email](./Email/) | 2–3 | In Progress |
+| [Printers](./Printers/) | 2–3 | In Progress |
+| [Account & Access](./Account-Access/) | 2–3 | In Progress |
+| [Applications](./Applications/) | 2–3 | In Progress |
+| [Hardware](./Hardware/) | 2–3 | In Progress |
+| [VPN & Remote Access](./VPN-Remote-Access/) | 2–3 | In Progress |
+| [Operating System](./Operating-System/) | 2–3 | In Progress |
 | **Total Target** | **15+** | |
 
 ---
@@ -105,6 +87,8 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 - Escalation criteria prevent wasted time on issues beyond Tier 1 scope
 - Clear documentation reduces repeat tickets for the same issue
 
+---
+
 ## 🔧 How To Use This Knowledge Base
 
 ### For Support Agents (Simulated Workflow)
@@ -116,7 +100,7 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 
 ### For Recruiters & Hiring Managers
 1. Browse the folder structure to see how information is organized
-2. Open 2-3 articles to evaluate technical writing clarity
+2. Open 2–3 articles to evaluate technical writing clarity
 3. Check the commit history to see version control practices
 4. Review this README for project scope and methodology
 
@@ -125,6 +109,8 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 2. Fork and customize with your own articles
 3. Use the article format as a starting point for your own KB
 4. Star the repo if you find it useful
+
+---
 
 ## 🛠️ Skills Demonstrated
 
@@ -139,6 +125,8 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 | **Attention to Detail** | Consistent formatting, naming conventions, and structure |
 | **User Empathy** | Writing with end-user perspective (symptoms before solutions) |
 
+---
+
 ## 🧰 Tools Used
 
 | Tool | Purpose | Cost |
@@ -148,14 +136,16 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 | **GitHub Pages** (planned) | Live website hosting for the KB | Free |
 | **Visual Studio Code** (optional) | Local editing environment | Free |
 
+---
+
 ## 🗺️ Project Roadmap
 
-### Phase 1: Foundation - COMPLETE
+### Phase 1: Foundation — COMPLETE
 - [x] Create repository and define folder structure
 - [x] Write comprehensive README.md
 - [x] Establish article format and documentation templates
 
-### Phase 2: Core Content - IN PROGRESS
+### Phase 2: Core Content — IN PROGRESS
 - [ ] Write 2+ troubleshooting articles per category (16+ total)
 - [ ] Create category index files (README.md) inside each folder
 - [ ] Add screenshots to key troubleshooting steps
@@ -172,6 +162,8 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 - [ ] Integrate with an AI agent for automated KB article retrieval (Gemma 4 project)
 - [ ] Add Microsoft 365-specific troubleshooting articles (Project #7)
 
+---
+
 ## 🤝 How To Contribute (Feedback Welcome)
 
 While this is a personal portfolio project, constructive feedback is always appreciated:
@@ -181,6 +173,7 @@ While this is a personal portfolio project, constructive feedback is always appr
 - **Want to see a specific article?** Request it through GitHub Issues
 - **Curious about my process?** Browse the commit history to see how articles evolved
 
+---
 
 ## 💡 About This Project
 
@@ -198,14 +191,20 @@ This knowledge base is **Project #5 of 7** in my Technical Support hands-on lear
 | 6 | Simulate Tier 1 Troubleshooting Scenarios | Planned |
 | 7 | Deploy Microsoft 365 Admin Trial Environment | Planned |
 
+---
+
 ## 📬 Connect With Me
 
 - **GitHub:** [EzioLockhart](https://github.com/EzioLockhart)
 - **Portfolio Website:** *Coming soon via GitHub Pages*
 
+---
+
 ## 📄 License
 
 This project is shared as a portfolio piece and learning resource. Feel free to use the structure as a template for your own knowledge base.
+
+---
 
 *Last updated: April 26, 2026*
 *Built as part of a hands-on Technical Support portfolio — 7 projects, zero budget, real skills.*
