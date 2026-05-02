@@ -15,6 +15,7 @@
 - Internet access works normally (or stops entirely, depending on VPN configuration)
 - Ping to internal servers by IP address or hostname fails with "Request timed out" or "Destination host unreachable"
 - VPN connection time is counting up but zero data is being sent or received
+- If VPN fails to connect at all with an authentication error, see: [VPN Connection Fails with Authentication Error](./vpn-authentication-error.md)
 
 ---
 
