@@ -1,16 +1,16 @@
 # No Internet Access (Limited Connectivity)
 
-**Category:** Networking
-**Version:** 1.0
-**Last Updated:** May 2, 2026
-**Last Reviewed:** May 2, 2026
-**Applies To:** Windows 10 (22H2), Windows 11 (23H2)
-**Difficulty:** L1 (Basic)
-**Estimated Resolution Time:** 10-20 minutes
-**Required Access Level:** User
-**Severity:** P1 (Single User, Critical — No Connectivity)
-**Keywords:** no internet, limited connectivity, yellow triangle, DNS, ipconfig, network, Wi-Fi, Ethernet, connectivity
-**Prerequisite Knowledge:** Basic Windows navigation, ability to open Settings and Command Prompt
+- **Category:** Networking
+- **Version:** 1.0
+- **Last Updated:** May 2, 2026
+- **Last Reviewed:** May 2, 2026
+- **Applies To:** Windows 10 (22H2), Windows 11 (23H2)
+- **Difficulty:** L1 (Basic)
+- **Estimated Resolution Time:** 10-20 minutes
+- **Required Access Level:** User
+- **Severity:** P1 (Single User, Critical — No Connectivity)
+- **Keywords:** no internet, limited connectivity, yellow triangle, DNS, ipconfig, network, Wi-Fi, Ethernet, connectivity
+- **Prerequisite Knowledge:** Basic Windows navigation, ability to open Settings and Command Prompt
 
 ---
 
