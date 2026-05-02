@@ -21,7 +21,7 @@
 ## Quick Checks (30 seconds)
 
 1. Check the printer's physical status — is it turned on, with paper loaded, and without error lights or messages on its display?
-2. Is the printer showing "Offline" in the queue window title bar? This requires a different fix (see Printer Shows as Offline guide)
+2. Is the printer showing "Offline" in the queue window title bar? If yes, resolve that first — see: [Printer Shows as Offline](./printer-offline.md)
 3. Check if the printer cable (USB or network) is securely connected at both ends
 4. Try printing a test page from another computer — if it works, the problem is local to this machine
 5. Look at the queue status — is there one specific document stuck at the top blocking everything behind it?
