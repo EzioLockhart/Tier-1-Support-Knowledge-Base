@@ -1,3 +1,58 @@
+<style>
+/* === Uiverse.io Inspired Card Component — 4 Color Variants === */
+/* Base Card */
+.ui-card {
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 5px solid;
+  line-height: 1.6;
+}
+/* Blue — Info / Metadata */
+.ui-card.blue {
+  background: #f0f6ff;
+  border-left-color: #2563eb;
+  color: #1e293b;
+}
+.ui-card.blue strong { color: #2563eb; }
+/* Yellow — Warning / Mapping / Triage */
+.ui-card.yellow {
+  background: #fffbeb;
+  border-left-color: #f59e0b;
+  color: #1e293b;
+}
+.ui-card.yellow strong { color: #b45309; }
+/* Green — Dialogue / User Scripts */
+.ui-card.green {
+  background: #f0fdf4;
+  border-left-color: #16a34a;
+  color: #1e293b;
+}
+.ui-card.green strong { color: #15803d; }
+/* Red — Escalation / Critical */
+.ui-card.red {
+  background: #fef2f2;
+  border-left-color: #dc2626;
+  color: #1e293b;
+}
+.ui-card.red strong { color: #b91c1c; }
+/* Card Titles */
+.ui-card-title {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  .ui-card { padding: 12px 14px; margin: 12px 0; }
+}
+</style>
+
 # No Internet Access (Limited Connectivity)
 
 **Category:** Networking
@@ -5,12 +60,16 @@
 **Last Updated:** May 2, 2026
 **Last Reviewed:** May 2, 2026
 **Applies To:** Windows 10 (22H2), Windows 11 (23H2)
-**Difficulty:** L1 (Basic)
-**Estimated Resolution Time:** 10-20 minutes
-**Required Access Level:** User
-**Severity:** P1 (Single User, Critical — No Connectivity)
-**Keywords:** no internet, limited connectivity, yellow triangle, DNS, ipconfig, network, Wi-Fi, Ethernet, connectivity
-**Prerequisite Knowledge:** Basic Windows navigation, ability to open Settings and Command Prompt
+
+<div class="ui-card blue">
+<div class="ui-card-title">📋 Article Info</div>
+<strong>Difficulty:</strong> L1 (Basic)<br>
+<strong>Estimated Resolution Time:</strong> 10-20 minutes<br>
+<strong>Required Access Level:</strong> User<br>
+<strong>Severity:</strong> P1 — Single User, Critical (No Connectivity)<br>
+<strong>Keywords:</strong> no internet, limited connectivity, yellow triangle, DNS, ipconfig, network, Wi-Fi, Ethernet, connectivity<br>
+<strong>Prerequisite Knowledge:</strong> Basic Windows navigation, ability to open Settings and Command Prompt
+</div>
 
 ---
 
@@ -34,7 +93,8 @@
 
 ---
 
-## Symptom-to-Step Mapping
+<div class="ui-card yellow">
+<div class="ui-card-title">⚡ Symptom-to-Step Mapping</div>
 
 | If You See This | Skip To |
 |-----------------|---------|
@@ -44,9 +104,12 @@
 | IP address starts with 169.254.x.x | Step 6 |
 | ping 8.8.8.8 fails completely | Step 7, then escalate |
 
+</div>
+
 ---
 
-## Triage Questions
+<div class="ui-card yellow">
+<div class="ui-card-title">❓ Triage Questions</div>
 
 Before starting troubleshooting, ask the user:
 
@@ -54,6 +117,8 @@ Before starting troubleshooting, ask the user:
 2. "Are other devices in your home or office able to connect to the internet right now?"
 3. "When did this problem start, and did anything change just before it happened?"
 4. "Is this a wired connection with a cable, or are you using Wi-Fi?"
+
+</div>
 
 ---
 
@@ -77,14 +142,20 @@ Before starting troubleshooting, ask the user:
 5. Plug in the router; wait for it to fully boot (approximately 2 minutes)
 6. Power on the computer and test connectivity
 
-**What to tell the user:** "We're going to restart your network equipment. This clears any temporary issues and forces a fresh connection from your ISP. You'll be offline for about 5 minutes while everything powers back up."
+<div class="ui-card green">
+<div class="ui-card-title">💬 What to tell the user</div>
+"We're going to restart your network equipment. This clears any temporary issues and forces a fresh connection from your ISP. You'll be offline for about 5 minutes while everything powers back up."
+</div>
 
 ### Step 2: Run Windows Network Troubleshooter
 1. Right-click the network icon in the taskbar
 2. Select "Troubleshoot problems"
 3. Follow on-screen prompts and apply any recommended fixes
 
-**What to tell the user:** "Windows has a built-in repair tool. I'll walk you through running it now. It checks for common issues automatically and may fix the problem on its own."
+<div class="ui-card green">
+<div class="ui-card-title">💬 What to tell the user</div>
+"Windows has a built-in repair tool. I'll walk you through running it now. It checks for common issues automatically and may fix the problem on its own."
+</div>
 
 ### Step 3: Flush DNS and Renew IP
 1. Open Command Prompt as Administrator: Press Win + X, select "Terminal (Admin)" or "Command Prompt (Admin)"
@@ -95,7 +166,10 @@ Before starting troubleshooting, ask the user:
    netsh winsock reset
 3. Restart the computer and test connectivity
 
-**What to tell the user:** "These commands clear out old network settings and force your computer to request a fresh connection. It's safe and won't delete any of your files or saved Wi-Fi passwords."
+<div class="ui-card green">
+<div class="ui-card-title">💬 What to tell the user</div>
+"These commands clear out old network settings and force your computer to request a fresh connection. It's safe and won't delete any of your files or saved Wi-Fi passwords."
+</div>
 
 ### Step 4: Check Proxy Settings
 1. Open Settings > Network & Internet > Proxy
@@ -125,7 +199,10 @@ Before starting troubleshooting, ask the user:
 4. Trace the route to identify where the connection fails: tracert 8.8.8.8
 5. If ping to 8.8.8.8 fails completely, the issue is likely hardware or ISP-related
 
-**What to tell the user:** "We've completed all the standard fixes on your computer. If you're still not online, the problem is likely with your internet service provider. I'll escalate this to our network team who can contact your ISP or check for wider outages."
+<div class="ui-card green">
+<div class="ui-card-title">💬 What to tell the user</div>
+"We've completed all the standard fixes on your computer. If you're still not online, the problem is likely with your internet service provider. I'll escalate this to our network team who can contact your ISP or check for wider outages."
+</div>
 
 ---
 
@@ -165,7 +242,8 @@ Common causes in order of likelihood:
 
 ---
 
-## Escalation Decision Matrix
+<div class="ui-card red">
+<div class="ui-card-title">🚨 Escalation Decision Matrix</div>
 
 | Condition | Action |
 |-----------|--------|
@@ -176,6 +254,8 @@ Common causes in order of likelihood:
 | Network adapter shows "Code 10" or "Code 43" in Device Manager | Escalate — likely hardware fault |
 | ISP outage confirmed via downdetector or ISP status page | Escalate — requires ISP contact |
 | Single user, no other devices affected | Continue troubleshooting, do not escalate yet |
+
+</div>
 
 ---
 
