@@ -15,6 +15,7 @@
 - Monitor is detected intermittently — works sometimes, disappears other times
 - Laptop screen works normally but external display does not respond
 - "Did not detect another display" message appears in Windows display settings
+- If the computer itself won't turn on at all, see: [Computer Won't Power On](./computer-wont-power-on.md)
 
 ---
 
