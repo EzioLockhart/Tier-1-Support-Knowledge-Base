@@ -13,6 +13,7 @@
 - Video calls, streaming, or downloads interrupted frequently
 - Other devices on the same network may or may not be affected
 - Issue may occur at specific times or locations (e.g., far from router, during peak hours)
+- If there is no internet access at all (not intermittent drops), see: [No Internet Access (Limited Connectivity)](./no-internet-access.md)
 
 ---
 
