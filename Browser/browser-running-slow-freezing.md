@@ -14,7 +14,7 @@
 - **Prerequisite Knowledge:** Basic browser navigation, ability to access browser settings
 
 ---
-
+ 
 ## Symptoms
 
 - Browser takes a long time to open or load any webpage
