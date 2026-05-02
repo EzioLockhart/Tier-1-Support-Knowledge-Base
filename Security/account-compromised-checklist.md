@@ -179,6 +179,7 @@ Common ways accounts become compromised, in order of likelihood:
 - Malware or keylogger on the computer captured the password as it was typed
 - Credentials exposed in a third-party data breach and sold or published online
 - Social engineering attack where an attacker impersonated a trusted entity and obtained the password
+- For help identifying phishing emails before they compromise an account, see: [How to Identify and Report a Phishing Email](./phishing-email-identification.md)
 
 ---
 
