@@ -15,6 +15,7 @@
 - No bounce-back or delivery failure notification received by sender
 - Other incoming emails continue to arrive normally
 - Outlook status bar shows "Connected" but sending still fails
+- If you can send emails but cannot receive new ones, see: [Outlook Not Receiving New Emails](./outlook-not-receiving-emails.md)
 
 ---
 
