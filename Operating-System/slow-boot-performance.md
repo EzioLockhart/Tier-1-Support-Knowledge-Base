@@ -15,6 +15,7 @@
 - Task Manager shows high disk usage (100%) for extended periods after startup
 - Computer was previously fast but gradually slowed down over weeks or months
 - Fans run loudly and constantly even during light tasks
+- If the slowness started specifically during or after a Windows Update, see: [Windows Update Stuck or Fails to Install](./windows-update-stuck.md)
 
 ---
 
