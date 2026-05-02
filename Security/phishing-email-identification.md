@@ -154,6 +154,7 @@
    - Monitor your bank statements for unauthorized transactions
    - File a report with the relevant authorities if funds were lost
    - Quick reporting significantly reduces potential damage from credential compromise.
+   - If you believe your account has already been compromised, follow the full response checklist: [Account Compromised — Immediate Response Checklist](./account-compromised-checklist.md)
 
 ---
 
