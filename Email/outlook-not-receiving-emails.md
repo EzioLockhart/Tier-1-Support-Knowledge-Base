@@ -13,6 +13,7 @@
 - Last email received was hours or days ago
 - Colleagues confirm they sent emails that never arrived
 - Outlook status bar shows "Connected" or "Updating Inbox" indefinitely
+- If you can receive emails but cannot send them, see: [Unable to Send Emails (Stuck in Outbox)](./unable-to-send-emails.md)
 
 ---
 
