@@ -25,12 +25,13 @@ A structured, version-controlled collection of troubleshooting guides for common
 This knowledge base was built from scratch to simulate the internal documentation a Tier 1 support team relies on daily. Every article follows a consistent, easy-to-follow structure designed for quick issue resolution during live support calls.
 
 **Goals of this project:**
-- Document 15+ common IT support issues with clear, step-by-step solutions
+- Document 18 common IT support issues with clear, step-by-step solutions
 - Organize content logically by category for fast retrieval
 - Maintain everything in a version-controlled environment (Git/GitHub)
 - Demonstrate technical writing ability for both technical and non-technical audiences
+- Include security awareness topics relevant to all support roles
 
-**Current Status:** ✅ 8 categories created | ✅ 16 articles complete | ✅ All folder indexes created
+**Current Status:** ✅ 9 categories created | ✅ 18 articles complete | ✅ All folder indexes created | ✅ GitHub Pages live
 
 ---
 
@@ -44,6 +45,7 @@ This knowledge base was built from scratch to simulate the internal documentatio
 - **Hardware/** — Monitors, peripherals, power, boot
 - **VPN-Remote-Access/** — VPN, RDP, remote desktop
 - **Operating-System/** — Windows updates, login, performance
+- **Security/** — Phishing identification, account compromise response
 
 ---
 
@@ -59,7 +61,8 @@ This knowledge base was built from scratch to simulate the internal documentatio
 | [Hardware](./Hardware/) | 2 | ✅ Complete |
 | [VPN & Remote Access](./VPN-Remote-Access/) | 2 | ✅ Complete |
 | [Operating System](./Operating-System/) | 2 | ✅ Complete |
-| **Total** | **16** | ✅ |
+| [Security](./Security/) | 2 | ✅ Complete |
+| **Total** | **18** | ✅ |
 
 ### Full Article List
 
@@ -81,6 +84,8 @@ This knowledge base was built from scratch to simulate the internal documentatio
 | 14 | VPN & Remote Access | [VPN Connected but No Network Access](./VPN-Remote-Access/vpn-no-network-access.md) |
 | 15 | Operating System | [Windows Update Stuck or Fails to Install](./Operating-System/windows-update-stuck.md) |
 | 16 | Operating System | [Slow Boot Time and Performance](./Operating-System/slow-boot-performance.md) |
+| 17 | Security | [How to Identify and Report a Phishing Email](./Security/phishing-email-identification.md) |
+| 18 | Security | [Account Compromised — Immediate Response Checklist](./Security/account-compromised-checklist.md) |
 
 ---
 
@@ -144,6 +149,7 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 | **Version Control (Git/GitHub)** | All content tracked, versioned, and publicly accessible |
 | **Process Documentation** | Consistent article format and escalation procedures |
 | **Knowledge Management** | Building and maintaining a searchable, organized KB |
+| **Security Awareness** | Phishing identification and incident response documentation |
 | **Attention to Detail** | Consistent formatting, naming conventions, and structure |
 | **User Empathy** | Writing with end-user perspective (symptoms before solutions) |
 
@@ -155,7 +161,7 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 |------|---------|:----:|
 | **GitHub** | Version control, hosting, public portfolio | Free |
 | **Markdown (.md)** | Article formatting language | Free |
-| **GitHub Pages** (planned) | Live website hosting for the KB | Free |
+| **GitHub Pages** | Live website hosting for the KB | Free |
 | **Visual Studio Code** (optional) | Local editing environment | Free |
 
 ---
@@ -168,21 +174,27 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 - [x] Establish article format and documentation templates
 
 ### Phase 2: Core Content — COMPLETE ✅
-- [x] Write 2+ troubleshooting articles per category (16 total)
+- [x] Write 2+ troubleshooting articles per category (18 total across 9 categories)
 - [x] Create category index files (README.md) inside each folder
 - [ ] Add screenshots to key troubleshooting steps
 - [ ] Include command reference cheat sheets where applicable
 
-### Phase 3: Enhancement
-- [ ] Enable GitHub Pages for a live, navigable website
-- [ ] Add a search-friendly index page
+### Phase 3: Enhancement — IN PROGRESS 🔄
+- [x] Enable GitHub Pages for a live, navigable website
+- [x] Add Security category with 2 articles
+- [x] Cross-link related articles for faster navigation
+- [ ] Build a search-friendly index page
 - [ ] Create printer-friendly PDF versions of top articles
-- [ ] Link articles to a simulated ticketing system (Project #1)
+- [ ] Add "Was this article helpful?" feedback to each article
+- [ ] Add estimated resolution time to each article header
 
-### Phase 4: Integration
+### Phase 4: Integration — PLANNED 🔲
 - [ ] Connect articles to PowerShell troubleshooting scripts (Project #3)
 - [ ] Integrate with an AI agent for automated KB article retrieval (Gemma 4 project)
 - [ ] Add Microsoft 365-specific troubleshooting articles (Project #7)
+- [ ] Create video walkthrough of the knowledge base
+- [ ] Cross-link with simulated tickets from Project #6
+- [ ] Translate top articles into additional languages
 
 ---
 
@@ -218,7 +230,7 @@ This knowledge base is **Project #5 of 7** in my Technical Support hands-on lear
 ## 📬 Connect With Me
 
 - **GitHub:** [EzioLockhart](https://github.com/EzioLockhart)
-- **Portfolio Website:** *Coming soon via GitHub Pages*
+- **Portfolio Website:** [Tier 1 Support Knowledge Base](https://eziolockhart.github.io/Tier-1-Support-Knowledge-Base/)
 
 ---
 
@@ -228,5 +240,5 @@ This project is shared as a portfolio piece and learning resource. Feel free to 
 
 ---
 
-*Last updated: April 27, 2026*
+*Last updated: May 2, 2026*
 *Built as part of a hands-on Technical Support portfolio — 7 projects, zero budget, real skills.*
