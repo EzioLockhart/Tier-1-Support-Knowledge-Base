@@ -15,6 +15,7 @@
 - User is certain the username and password are correct but VPN still rejects them
 - Two-factor authentication (MFA/2FA) prompt does not appear or times out
 - VPN was working previously but suddenly stopped authenticating without any changes
+- If VPN connects successfully but you cannot access internal resources after connecting, see: [VPN Connected but No Network Access](./vpn-no-network-access.md)
 
 ---
 
