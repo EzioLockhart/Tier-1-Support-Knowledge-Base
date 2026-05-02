@@ -188,6 +188,7 @@ Common causes of Windows Update failures, in order of likelihood:
 - Driver incompatibility, especially for major feature updates
 - Pending restart from a previous update that was never completed
 - Corrupted Windows Update components at the operating system level
+- If the system is generally slow even when updates are not running, see: [Slow Boot Time and Performance](./slow-boot-performance.md)
 
 ---
 
