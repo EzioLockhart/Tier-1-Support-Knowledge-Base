@@ -123,6 +123,7 @@
 6. Try connecting a different monitor to the computer to see if it displays
 7. On laptops: try the keyboard shortcut to toggle display output — **Win + P** or **Fn + F-key** (look for the monitor icon on the function keys, usually F4, F5, F7, or F8)
    - A computer that powers on but has no display is a different problem from "no power"; always verify if the computer is actually running by listening for fan noise and checking internal lights.
+   - - If the computer powers on but the monitor shows no signal, see: [External Monitor Not Detected](./external-monitor-not-detected.md)
 
 ### Step 6: Inspect Internal Hardware (Desktop Computers — Advanced)
 
