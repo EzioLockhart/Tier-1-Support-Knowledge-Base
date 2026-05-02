@@ -64,6 +64,7 @@ Unlock-ADAccount -Identity "username"
 Get-ADUser -Identity "username" -Properties LockedOut | Select-Object Name, LockedOut
 
    - LockedOut should now show "False"
+   - If the user also needs their password reset, see: [Password Reset — Active Directory](./password-reset-ad.md)
 
 ### Step 3: Identify the Source of the Lockout (Event ID 4740)
 
