@@ -167,6 +167,7 @@ Common causes of application crashes on launch, in order of likelihood:
 - Corrupted user profile or application configuration files in AppData
 - Conflicting third-party software (antivirus, screen overlays, system optimization tools)
 - Insufficient permissions to access required system resources (resolved by running as administrator)
+- If the application opens but freezes during use rather than crashing on launch, see: [Application Not Responding / Frozen](./app-not-responding.md)
 
 ---
 
