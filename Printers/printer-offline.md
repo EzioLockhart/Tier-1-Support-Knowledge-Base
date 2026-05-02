@@ -154,6 +154,7 @@ Escalate to Tier 2 / Network Team if:
 - The printer shows offline repeatedly within hours of being fixed
 - Printer firmware update is required but admin access is needed
 - Physical hardware issue suspected (e.g., printer display shows error code, unusual noises, or no power despite verified power source)
+- If print jobs are stuck in the queue after the printer comes back online, see: [Print Jobs Stuck in Print Queue](./print-jobs-stuck.md)
 
 ---
 
