@@ -6,17 +6,17 @@ A structured, version-controlled collection of troubleshooting guides for common
 
 ## Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Repository Structure](#-repository-structure)
-- [Categories & Articles](#-categories--articles)
-- [Article Format](#-article-format)
-- [How To Use This Knowledge Base](#-how-to-use-this-knowledge-base)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Tools Used](#-tools-used)
-- [Project Roadmap](#-project-roadmap)
-- [How To Contribute](#-how-to-contribute)
-- [About This Project](#-about-this-project)
-- [Connect With Me](#-connect-with-me)
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Categories & Articles](#categories--articles)
+- [Article Format](#article-format)
+- [How To Use This Knowledge Base](#how-to-use-this-knowledge-base)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Tools Used](#tools-used)
+- [Project Roadmap](#project-roadmap)
+- [How To Contribute](#how-to-contribute)
+- [About This Project](#about-this-project)
+- [Connect With Me](#connect-with-me)
 
 ---
 
@@ -25,13 +25,13 @@ A structured, version-controlled collection of troubleshooting guides for common
 This knowledge base was built from scratch to simulate the internal documentation a Tier 1 support team relies on daily. Every article follows a consistent, easy-to-follow structure designed for quick issue resolution during live support calls.
 
 **Goals of this project:**
-- Document 18 common IT support issues with clear, step-by-step solutions
+- Document 19 common IT support issues with clear, step-by-step solutions
 - Organize content logically by category for fast retrieval
 - Maintain everything in a version-controlled environment (Git/GitHub)
 - Demonstrate technical writing ability for both technical and non-technical audiences
 - Include security awareness topics relevant to all support roles
 
-**Current Status:** 9 categories created | 18 articles complete | All folder indexes created | GitHub Pages live
+**Current Status:** 9 categories created | 19 articles complete | All folder indexes created | GitHub Pages live
 
 ---
 
@@ -53,7 +53,7 @@ This knowledge base was built from scratch to simulate the internal documentatio
 
 | Category | Articles | Status |
 |----------|:--------:|:------:|
-| [Networking](./Networking/) | 2 | Complete |
+| [Networking](./Networking/) | 3 | Complete |
 | [Email](./Email/) | 2 | Complete |
 | [Printers](./Printers/) | 2 | Complete |
 | [Account & Access](./Account-Access/) | 2 | Complete |
@@ -62,7 +62,7 @@ This knowledge base was built from scratch to simulate the internal documentatio
 | [VPN & Remote Access](./VPN-Remote-Access/) | 2 | Complete |
 | [Operating System](./Operating-System/) | 2 | Complete |
 | [Security](./Security/) | 2 | Complete |
-| **Total** | **18** | |
+| **Total** | **19** | |
 
 ### Full Article List
 
@@ -70,22 +70,23 @@ This knowledge base was built from scratch to simulate the internal documentatio
 |---|----------|---------|
 | 1 | Networking | [No Internet Access (Limited Connectivity)](./Networking/no-internet-access.md) |
 | 2 | Networking | [Wi-Fi Keeps Disconnecting](./Networking/wifi-keeps-disconnecting.md) |
-| 3 | Email | [Outlook Not Receiving New Emails](./Email/outlook-not-receiving-emails.md) |
-| 4 | Email | [Unable to Send Emails (Stuck in Outbox)](./Email/unable-to-send-emails.md) |
-| 5 | Printers | [Printer Shows as Offline](./Printers/printer-offline.md) |
-| 6 | Printers | [Print Jobs Stuck in Print Queue](./Printers/print-jobs-stuck.md) |
-| 7 | Account & Access | [Password Reset — Active Directory](./Account-Access/password-reset-ad.md) |
-| 8 | Account & Access | [Account Locked After Multiple Attempts](./Account-Access/account-locked-out.md) |
-| 9 | Applications | [Application Not Responding / Frozen](./Applications/app-not-responding.md) |
-| 10 | Applications | [Application Crashes on Launch](./Applications/app-crashes-on-launch.md) |
-| 11 | Hardware | [External Monitor Not Detected](./Hardware/external-monitor-not-detected.md) |
-| 12 | Hardware | [Computer Won't Power On](./Hardware/computer-wont-power-on.md) |
-| 13 | VPN & Remote Access | [VPN Connection Fails with Authentication Error](./VPN-Remote-Access/vpn-authentication-error.md) |
-| 14 | VPN & Remote Access | [VPN Connected but No Network Access](./VPN-Remote-Access/vpn-no-network-access.md) |
-| 15 | Operating System | [Windows Update Stuck or Fails to Install](./Operating-System/windows-update-stuck.md) |
-| 16 | Operating System | [Slow Boot Time and Performance](./Operating-System/slow-boot-performance.md) |
-| 17 | Security | [How to Identify and Report a Phishing Email](./Security/phishing-email-identification.md) |
-| 18 | Security | [Account Compromised — Immediate Response Checklist](./Security/account-compromised-checklist.md) |
+| 3 | Networking | [DNS Server Not Responding](./Networking/dns-server-not-responding.md) |
+| 4 | Email | [Outlook Not Receiving New Emails](./Email/outlook-not-receiving-emails.md) |
+| 5 | Email | [Unable to Send Emails (Stuck in Outbox)](./Email/unable-to-send-emails.md) |
+| 6 | Printers | [Printer Shows as Offline](./Printers/printer-offline.md) |
+| 7 | Printers | [Print Jobs Stuck in Print Queue](./Printers/print-jobs-stuck.md) |
+| 8 | Account & Access | [Password Reset — Active Directory](./Account-Access/password-reset-ad.md) |
+| 9 | Account & Access | [Account Locked After Multiple Attempts](./Account-Access/account-locked-out.md) |
+| 10 | Applications | [Application Not Responding / Frozen](./Applications/app-not-responding.md) |
+| 11 | Applications | [Application Crashes on Launch](./Applications/app-crashes-on-launch.md) |
+| 12 | Hardware | [External Monitor Not Detected](./Hardware/external-monitor-not-detected.md) |
+| 13 | Hardware | [Computer Won't Power On](./Hardware/computer-wont-power-on.md) |
+| 14 | VPN & Remote Access | [VPN Connection Fails with Authentication Error](./VPN-Remote-Access/vpn-authentication-error.md) |
+| 15 | VPN & Remote Access | [VPN Connected but No Network Access](./VPN-Remote-Access/vpn-no-network-access.md) |
+| 16 | Operating System | [Windows Update Stuck or Fails to Install](./Operating-System/windows-update-stuck.md) |
+| 17 | Operating System | [Slow Boot Time and Performance](./Operating-System/slow-boot-performance.md) |
+| 18 | Security | [How to Identify and Report a Phishing Email](./Security/phishing-email-identification.md) |
+| 19 | Security | [Account Compromised — Immediate Response Checklist](./Security/account-compromised-checklist.md) |
 
 ---
 
@@ -174,15 +175,15 @@ Every troubleshooting guide in this repository follows a consistent 5-section st
 - [x] Establish article format and documentation templates
 
 ### Phase 2: Core Content — COMPLETE
-- [x] Write 2+ troubleshooting articles per category (18 total across 9 categories)
+- [x] Write troubleshooting articles across 9 categories (19 total)
 - [x] Create category index files (README.md) inside each folder
 - [x] Add Security category with phishing and account compromise articles
+- [x] Cross-link related articles for faster navigation
 - [ ] Add screenshots to key troubleshooting steps
-- [ ] Include command reference cheat sheets where applicable
 
 ### Phase 3: Enhancement — IN PROGRESS
 - [x] Enable GitHub Pages for a live, navigable website
-- [x] Cross-link related articles for faster navigation
+- [x] Add CONTRIBUTING.md with style guide and template
 - [ ] Build a search-friendly index page
 - [ ] Create printer-friendly PDF versions of top articles
 - [ ] Add "Was this article helpful?" feedback to each article
