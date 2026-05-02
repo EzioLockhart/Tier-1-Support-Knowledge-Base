@@ -123,6 +123,7 @@ Common causes of applications freezing, in order of likelihood:
 - Corrupted application files or user profile settings
 - Graphics driver incompatibility (especially for graphics-heavy or video applications)
 - Hardware limitations — application requires more CPU or RAM than the computer can provide
+- If the application crashes immediately on launch rather than freezing while in use, see: [Application Crashes on Launch](./app-crashes-on-launch.md)
 
 ---
 
