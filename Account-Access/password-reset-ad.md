@@ -120,6 +120,7 @@
    - Check the security event log on the domain controller for the source of the failed logins:
      - Event ID 4740: Account Locked Out
      - Look at the "Caller Computer Name" field to identify which machine is causing the lockout
+     - For detailed lockout source identification, see: [Account Locked After Multiple Attempts](./account-locked-out.md)
 
 ### Step 6: Verify Successful Login and Password Change
 
